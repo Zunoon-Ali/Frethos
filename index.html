@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frethos</title>
+    <link rel="icon" type="image/png" href="assets/images/frethos_logo.png" />
     <link rel="stylesheet" href="css/style.css" />
 
     <link
@@ -16,6 +17,24 @@
   <body>
     <section id="header"></section>
     <section id="hero_section"></section>
+    <a
+      href="shopping_cart.html"
+      class="fixed right-3 bottom-100 inline-flex items-center px-6 py-4 rounded-full text-sm font-medium transition hover:scale-110 shadow-md border border-gray-600 bg-black text-white hover:bg-white hover:text-black z-50"
+    >
+      <span class="material-symbols-outlined text-[3rem]"> shopping_cart </span>
+      <svg
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        class="w-6 h-6 ml-1"
+        viewBox="0 0 24 24"
+      >
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </a>
+
     <section id="products_section"></section>
 
     <section id="footer" class="bg-gray-100"></section>
@@ -125,5 +144,6 @@
     <script src="js/layout.js"></script>
     <script src="js/product.js"></script>
     <script src="js/modal.js"></script>
+    <script src="js/addToCart.js"></script>
   </body>
 </html>

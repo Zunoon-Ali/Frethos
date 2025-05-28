@@ -15,39 +15,46 @@ function openModal(product) {
     document.getElementById('productModal').classList.remove('hidden');
 }
 
-
-document.getElementById('closeModal').addEventListener('click', () => {
-    document.getElementById('productModal').classList.add('hidden');
-});
-
-document.getElementById('productModal').addEventListener('click', (e) => {
-    if (e.target.id === 'productModal') {
-        document.getElementById('productModal').classList.add('hidden');
-    }
-});
-
 document.addEventListener('DOMContentLoaded', () => {
+    const closeModalBtn = document.getElementById('closeModal');
+    const productModal = document.getElementById('productModal');
     const qtyInput = document.getElementById('quantity');
     const increaseBtn = document.getElementById('qtyIncrease');
     const decreaseBtn = document.getElementById('qtyDecrease');
 
-    increaseBtn.addEventListener('click', () => {
-        let currentQty = parseInt(qtyInput.value);
-        qtyInput.value = currentQty + 1;
+    if (closeModalBtn) {
+        closeModalBtn.addEventListener('click', () => {
+            if (productModal) {
+                productModal.classList.add('hidden');
+            }
+        });
     }
-    );
 
-    decreaseBtn.addEventListener('click', () => {
-        let currentQty = parseInt(qtyInput.value);
-        if (currentQty > 1) {
-            qtyInput.value = currentQty - 1;
-        }
-    })
+    if (productModal) {
+        productModal.addEventListener('click', (e) => {
+            if (e.target.id === 'productModal') {
+                productModal.classList.add('hidden');
+            }
+        });
+    }
+
+    if (qtyInput && increaseBtn && decreaseBtn) {
+        increaseBtn.addEventListener('click', () => {
+            let currentQty = parseInt(qtyInput.value);
+            qtyInput.value = currentQty + 1;
+        });
+
+        decreaseBtn.addEventListener('click', () => {
+            let currentQty = parseInt(qtyInput.value);
+            if (currentQty > 1) {
+                qtyInput.value = currentQty - 1;
+            }
+        });
+
+        qtyInput.addEventListener('input', () => {
+            if (qtyInput.value < 1) {
+                qtyInput.value = 1;
+            }
+        });
+    }
 });
-
-// Load the modal HTML content
-qtyInput.addEventListener('input', (e) => {
-    if (qtyInput.value < 1) {
-        qtyInput.value = 1;
-    }
-})

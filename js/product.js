@@ -1,8 +1,8 @@
+// This needs to be GLOBAL for onclick in HTML to work
 let productData = [];
 let currentPage = 1;
 let itemsPerPage = 8;
 
-// This needs to be GLOBAL for onclick in HTML to work
 function handleCardClick(card) {
     const product = {
         name: card.getAttribute('data-name'),
@@ -15,44 +15,45 @@ function handleCardClick(card) {
     openModal(product); // call modal.js function
 }
 
-async function loadProducts() {
-    try {
-        let response = await fetch('js/product_data.json');
-        productData = await response.json();
+document.addEventListener('DOMContentLoaded', function () {
+    async function loadProducts() {
+        try {
+            let response = await fetch('js/product_data.json');
+            productData = await response.json();
 
-        renderProducts();
+            renderProducts();
 
-        document.getElementById('prevBtn').addEventListener('click', () => {
-            if (currentPage > 1) {
-                currentPage--;
-                renderProducts();
-            }
-        });
+            document.getElementById('prevBtn').addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    renderProducts();
+                }
+            });
 
-        document.getElementById('nextBtn').addEventListener('click', () => {
-            const totalPages = Math.ceil(productData.length / itemsPerPage);
-            if (currentPage < totalPages) {
-                currentPage++;
-                renderProducts();
-            }
-        });
+            document.getElementById('nextBtn').addEventListener('click', () => {
+                const totalPages = Math.ceil(productData.length / itemsPerPage);
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    renderProducts();
+                }
+            });
 
-    } catch (error) {
-        console.error("Error Loading Product Data:", error);
+        } catch (error) {
+            console.error("Error Loading Product Data:", error);
+        }
     }
-}
 
-function renderProducts() {
-    let start = (currentPage - 1) * itemsPerPage;
-    let end = start + itemsPerPage;
-    let productsToDisplay = productData.slice(start, end);
+    function renderProducts() {
+        let start = (currentPage - 1) * itemsPerPage;
+        let end = start + itemsPerPage;
+        let productsToDisplay = productData.slice(start, end);
 
-    let productContainer = document.getElementById('products');
-    productContainer.innerHTML = "";
+        let productContainer = document.getElementById('products');
+        productContainer.innerHTML = "";
 
-    let cardHtml = '';
-    productsToDisplay.forEach(product => {
-        cardHtml += `
+        let cardHtml = '';
+        productsToDisplay.forEach(product => {
+            cardHtml += `
     <div 
       class="product_card xl:w-1/4 md:w-1/3 p-4 group cursor-pointer"
       onclick="handleCardClick(this)"
@@ -83,22 +84,23 @@ function renderProducts() {
           </p>
       </div>
     </div>`;
-    });
-    productContainer.innerHTML += cardHtml;
+        });
+        productContainer.innerHTML += cardHtml;
 
-    updatePagination();
-    toggleButtons();
-}
+        updatePagination();
+        toggleButtons();
+    }
 
-function updatePagination() {
-    const totalPages = Math.ceil(productData.length / itemsPerPage);
-    document.getElementById("pagination").innerText = `page:  ${currentPage} of ${totalPages}`;
-}
+    function updatePagination() {
+        const totalPages = Math.ceil(productData.length / itemsPerPage);
+        document.getElementById("pagination").innerText = `page:  ${currentPage} of ${totalPages}`;
+    }
 
-function toggleButtons() {
-    const totalPages = Math.ceil(productData.length / itemsPerPage);
-    document.getElementById('prevBtn').disabled = currentPage === 1;
-    document.getElementById('nextBtn').disabled = currentPage === totalPages;
-}
+    function toggleButtons() {
+        const totalPages = Math.ceil(productData.length / itemsPerPage);
+        document.getElementById('prevBtn').disabled = currentPage === 1;
+        document.getElementById('nextBtn').disabled = currentPage === totalPages;
+    }
 
-loadProducts();
+    loadProducts();
+});
