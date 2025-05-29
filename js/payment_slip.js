@@ -9,16 +9,12 @@ function checkoutCart() {
         <html>
         <head>
             <title>Receipt</title>
-            <style>
-                body { font-family: Arial, sans-serif; padding: 20px; }
-                h1 { text-align: center; }
-                .item { margin-bottom: 15px; }
-                .total { font-weight: bold; border-top: 1px solid #000; margin-top: 20px; padding-top: 10px; }
-            </style>
+            <!-- ✅ Tailwind CSS CDN -->
+            <script src="https://cdn.tailwindcss.com"></script>
         </head>
-        <body>
-            <h1>🛒 Checkout Receipt</h1>
-            <div>
+        <body class="bg-white text-gray-800 p-10">
+            <h1 class="text-3xl font-bold text-center mb-8">🧾 Checkout Receipt</h1>
+            <div class="space-y-6">
     `;
 
     let grandTotal = 0;
@@ -29,31 +25,32 @@ function checkoutCart() {
         grandTotal += totalItemPrice;
 
         receiptHTML += `
-            <div class="item">
-                <p><strong>Item ${index + 1}</strong></p>
-                <p>Name: ${item.name}</p>
-                <p>Color: ${item.color}</p>
-                <p>Quantity: ${item.quantity}</p>
-                <p>Unit Price: Rs ${price.toFixed(2)}</p>
-                <p>Total: Rs ${totalItemPrice.toFixed(2)}</p>
+            <div class="border p-4 rounded-lg shadow-md">
+                <p class="font-semibold text-lg">Item ${index + 1}</p>
+                <p><strong>Name:</strong> ${item.name}</p>
+                <p><strong>Color:</strong> ${item.color}</p>
+                <p><strong>Quantity:</strong> ${item.quantity}</p>
+                <p><strong>Unit Price:</strong> Rs ${price.toFixed(2)}</p>
+                <p class="text-green-600 font-bold">Total: Rs ${totalItemPrice.toFixed(2)}</p>
             </div>
         `;
     });
 
     receiptHTML += `
-            <div class="total">
+            <div class="mt-10 text-xl text-center font-extrabold text-green-700">
                 Grand Total: Rs ${grandTotal.toFixed(2)}
             </div>
-            <p style="text-align:center; margin-top: 40px;">✅ Thank you for shopping with us!</p>
-        </div>
-        <script>
-            window.onload = function() {
-                window.print();
-                window.onafterprint = function() {
-                    window.close();
+            <p class="text-center mt-8">✅ Thank you for shopping with us!</p>
+            </div>
+
+            <script>
+                window.onload = function() {
+                    window.print();
+                    window.onafterprint = function() {
+                        window.close();
+                    };
                 };
-            }
-        </script>
+            <\/script>
         </body>
         </html>
     `;
@@ -62,15 +59,30 @@ function checkoutCart() {
     receiptWindow.document.write(receiptHTML);
     receiptWindow.document.close();
 
-    // Reset cart data AFTER a short delay (give time for print window to open)
-    setTimeout(() => {
-        localStorage.removeItem("cart"); // Clear cart
-        if (typeof loadCart === "function") {
-            loadCart(); // Reload cart if this function exists
-        } else {
-            location.reload(); // Fallback: just reload the page
-        }
-    }, 500); // 0.5s delay to avoid clearing too early
-}
+    // Optional: Clear cart and reload
+    swindow.addEventListener('load', () => {
+        // Clear cart from localStorage when page loads
+        localStorage.removeItem("cart");
 
- 
+        // If you have a loadCart() function to update UI, call it here
+        if (typeof loadCart === "function") {
+            loadCart();
+        }
+    });
+
+
+}
+const resetCartButton = document.getElementById('resetCartButton');
+
+resetCartButton.addEventListener('click', () => {
+    // Clear cart from localStorage
+    localStorage.removeItem('cart');
+
+    // If you have a function to update cart UI, call it here
+    if (typeof loadCart === "function") {
+        loadCart();
+    } else {
+        // Or reload the page as a fallback
+        location.reload();
+    }
+});

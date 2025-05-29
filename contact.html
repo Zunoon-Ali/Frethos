@@ -16,8 +16,58 @@
   </head>
   <body>
     <section id="header"></section>
-    <main class="min-h-screen flex items-center justify-center bg-gray-100">
-      <form class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
+    <section id="contact_hero"></section>
+    <a href=""
+      ><!-- Scroll to Top Button -->
+      <button
+        id="scrollTopBtn"
+        class="hidden fixed bottom-12 right-6 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-1000 ease-in-out opacity-0 z-50"
+        aria-label="Scroll to top"
+      >
+        ↑
+      </button>
+    </a>
+     <a
+      href="index.html"
+      class="fixed right-3 bottom-80 inline-flex items-center px-6 py-4 rounded-full text-sm font-medium transition hover:scale-110 shadow-md border border-gray-600 bg-black text-white hover:bg-white hover:text-black z-50 hover:text-purple-700"
+    >
+      <svg
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        class="w-6 h-6 ml-1"
+        viewBox="0 0 24 24"
+      >
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+      <span class="material-symbols-outlined text-[3rem]"> home </span>
+    </a>
+    <section class="text-gray-600 body-font relative">
+  <div class="absolute inset-0 bg-gray-300">
+   <iframe
+  width="100%"
+  height="600"
+  frameborder="0"
+  marginheight="0"
+  marginwidth="0"
+  title="World Map"
+  scrolling="no"
+  src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=world&ie=UTF8&t=&z=2&iwloc=B&output=embed"
+  style="filter: grayscale(1) contrast(1.2) opacity(0.4); border: none;"
+></iframe>
+
+  </div>
+  <div class="container px-5 py-24 mx-auto flex">
+    <div class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+      <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+      <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
+      <div class="relative mb-4">
+       <form
+        id="contactForm"
+        class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md mt-10"
+      >
         <h2 class="text-2xl font-semibold mb-6 text-gray-800">Contact Us</h2>
 
         <label class="block mb-2 text-gray-700" for="name">Name</label>
@@ -26,7 +76,7 @@
           id="name"
           name="name"
           placeholder="Your full name"
-          class="w-full mb-4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="form-field w-full mb-4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none"
           required
         />
 
@@ -36,7 +86,7 @@
           id="email"
           name="email"
           placeholder="you@example.com"
-          class="w-full mb-4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="form-field w-full mb-4 px-4 py-2 border border-gray-300 rounded-md focus:outline-none"
           required
         />
 
@@ -46,7 +96,7 @@
           name="message"
           rows="4"
           placeholder="Write your message here..."
-          class="w-full mb-6 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+          class="form-field w-full mb-6 px-4 py-2 border border-gray-300 rounded-md focus:outline-none"
           required
         ></textarea>
 
@@ -56,14 +106,39 @@
         >
           Send Message
         </button>
-      </form>
-    </main>
+      </form>      <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
+    </div>
+  </div>
+</section>
+
 
     <section id="footer"></section>
+    <script>
+      const form = document.getElementById("contactForm");
+      const inputs = form.querySelectorAll("input, textarea");
 
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        let isValid = true;
+
+        if (isValid) {
+          const name = form.name.value.trim();
+          const email = form.email.value.trim();
+          const message = form.message.value.trim();
+
+          alert(
+            `Thank you, ${name}!\n\nEmail: ${email}\n Your message has been sent to Frethos`
+          );
+          form.reset();
+        }
+      });
+    </script>
     <script src="js/layout.js"></script>
     <script src="js/product.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/addToCart.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/scroll.js"></script>
   </body>
 </html>

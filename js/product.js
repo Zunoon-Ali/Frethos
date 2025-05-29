@@ -1,7 +1,7 @@
 // This needs to be GLOBAL for onclick in HTML to work
 let productData = [];
 let currentPage = 1;
-let itemsPerPage = 8;
+let itemsPerPage = 16;
 
 function handleCardClick(card) {
     const product = {
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
         productsToDisplay.forEach(product => {
             cardHtml += `
     <div 
-      class="product_card xl:w-1/4 md:w-1/3 p-4 group cursor-pointer"
+      class="product_card xl:w-1/4 md:w-1/3 sm:w-1/2  w-full p-4 group cursor-pointer"
       onclick="handleCardClick(this)"
       data-name="${product.name}"
       data-image="${product.image}"

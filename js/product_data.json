@@ -1,454 +1,454 @@
 [
     {
         "id": 1,
-        "name": "Frethos Signature Black Shirt",
+        "name": "Black Frethos Shirt",
         "description": "Premium black shirt with a signature touch.",
         "previous_price": "1499.00",
         "sale_price": "1199.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/BFS1.jpeg",
         "tag": "Sale"
     },
     {
         "id": 2,
-        "name": "Classic White Shirt",
-        "description": "A must-have white formal shirt.",
+        "name": "Black Frethos Shirt",
+        "description": "A must-have black shirt,Premium black shirt with a signature touch",
         "previous_price": "1299.00",
         "sale_price": "999.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Hot"
+        "image": "assets/images/BFS2.jpeg",
+        "tag": "Sale"
     },
     {
         "id": 3,
-        "name": "Royal Blue Polo",
-        "description": "Casual and stylish polo shirt.",
+        "name": "Black Frethos Shirt ",
+        "description": "Casual and sober Frethos shirt.",
         "previous_price": "1399.00",
         "sale_price": "1099.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/BFS3.jpeg",
         "tag": "New"
     },
     {
         "id": 4,
-        "name": "Casual Striped Tee",
+        "name": "Black Frethos spritual tree Shirt",
         "description": "Perfect for everyday wear.",
         "previous_price": "1199.00",
         "sale_price": "899.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/BFTS.jpeg",
         "tag": "Trend"
     },
     {
         "id": 5,
-        "name": "Slim Fit Grey Shirt",
+        "name": "Black Frethos Wolf Shirt",
         "description": "Elegant and modern look.",
         "previous_price": "1399.00",
         "sale_price": "1149.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/BFWS.jpeg",
         "tag": "Sale"
     },
     {
         "id": 6,
-        "name": "Streetwear Graphic Tee",
+        "name": "Black Frethos Wolf Signature Shirt",
         "description": "Urban style graphic shirt.",
         "previous_price": "1599.00",
         "sale_price": "1299.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/BFWSS.jpeg",
         "tag": "Limited"
     },
     {
         "id": 7,
-        "name": "Cotton Summer Shirt",
+        "name": "Black huh Shirt",
         "description": "Breathable and light cotton shirt.",
         "previous_price": "1499.00",
         "sale_price": "1199.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/BHUH.jpeg",
         "tag": "Summer"
     },
     {
         "id": 8,
-        "name": "Formal Navy Shirt",
-        "description": "Ideal for office wear.",
+        "name": "Black Proffessional Yapper Shirt",
+        "description": "Ideal for casual wear.",
         "previous_price": "1699.00",
         "sale_price": "1399.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/BPYS.jpeg",
         "tag": "Office"
     },
     {
         "id": 9,
-        "name": "Checkered Red Shirt",
+        "name": "Whitw Frethos BillionareS",
         "description": "Bold red checkered shirt.",
         "previous_price": "1599.00",
         "sale_price": "1299.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/WFBS.jpeg",
         "tag": "Classic"
     },
     {
         "id": 10,
-        "name": "Vintage Washed Shirt",
+        "name": "White Frethos CAT Shirt",
         "description": "Trendy washed look with modern fit.",
         "previous_price": "1799.00",
         "sale_price": "1499.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/WFCAT.jpeg",
         "tag": "Vintage"
     },
 
     {
         "id": 11,
-        "name": "Casual Mint Shirt",
+        "name": "WHite Frethos Car Shirt",
         "description": "Cool mint green color shirt.",
         "previous_price": "1399.00",
         "sale_price": "999.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/WFCS.jpeg",
         "tag": "Fresh"
     },
     {
         "id": 12,
-        "name": "Stone Grey Oversize",
+        "name": "White Frethos Design Shirt",
         "description": "Loose fit grey shirt for comfort.",
         "previous_price": "1499.00",
         "sale_price": "1199.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/WFDS.jpeg",
         "tag": "Oversize"
     },
 
     {
         "id": 13,
-        "name": "Lavender Button Shirt",
+        "name": "White Frethos Fashion Shirt",
         "description": "Soft and stylish lavender color.",
         "previous_price": "1699.00",
         "sale_price": "1399.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/WFFS.jpeg",
         "tag": "New"
     },
     {
         "id": 14,
-        "name": "Bold Black Graphic Tee",
+        "name": "White Frethos Shirt",
         "description": "Make a statement with bold graphics.",
         "previous_price": "1499.00",
         "sale_price": "1199.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/WFS1.jpeg",
         "tag": "Bold"
     },
     {
         "id": 15,
-        "name": "Peach Vibe Summer Shirt",
+        "name": "White Hey U Drop Mocking Shirt",
         "description": "Breezy summer shirt with a peach tone.",
         "previous_price": "1299.00",
         "sale_price": "999.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/WHUDS.jpeg",
         "tag": "Summer"
     },
     {
         "id": 16,
-        "name": "Denim Blue Classic Shirt",
+        "name": "White Money  Shirt",
         "description": "Timeless denim blue for any outfit.",
         "previous_price": "1599.00",
         "sale_price": "1299.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/WMS.jpeg",
         "tag": "Classic"
     },
     {
         "id": 17,
-        "name": "Rust Orange Long Sleeve",
+        "name": "White unEmployeed Shirt",
         "description": "Stay warm with bold orange shades.",
         "previous_price": "1699.00",
         "sale_price": "1399.00",
-        "image": "assets/images/img1.png",
+        "image": "assets/images/WUES.jpeg",
         "tag": "Winter"
     },
     {
         "id": 18,
-        "name": "Urban Beige Shirt",
+        "name": "Black Battery Design Shirt",
         "description": "Neutral beige tones with modern fit.",
         "previous_price": "1499.00",
         "sale_price": "1149.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/BBS.jpeg",
         "tag": "Urban"
     },
     {
         "id": 19,
-        "name": "Cool Sky Blue Shirt",
+        "name": "Black Eu People Shirt",
         "description": "Refresh your look with sky blue.",
         "previous_price": "1399.00",
         "sale_price": "1099.00",
-        "image": "assets/images/img1.png",
+        "image": "assets/images/BWEP.jpeg",
         "tag": "Fresh"
     },
     {
         "id": 20,
-        "name": "Black and White Flannel",
+        "name": "White Frethos Palestine Shirt",
         "description": "Cozy flannel with stylish contrast.",
         "previous_price": "1799.00",
         "sale_price": "1499.00",
-        "image": "assets/images/frethos_black_shirt.png",
+        "image": "assets/images/WFPS.jpeg",
         "tag": "Warm"
     },
     {
-        "id": 21,
-        "name": "Coral Slim Fit Shirt",
-        "description": "Coral tones with sleek fit.",
-        "previous_price": "1499.00",
-        "sale_price": "1199.00",
-        "image": "assets/images/img1.png",
-        "tag": "Slim"
-    },
-    {
-        "id": 22,
-        "name": "Black Zipper Hoodie",
-        "description": "Comfort hoodie with front zip.",
-        "previous_price": "1899.00",
-        "sale_price": "1599.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "New"
-    },
-    {
-        "id": 23,
-        "name": "Ash Grey Henley Shirt",
-        "description": "Henley style with buttoned neck.",
-        "previous_price": "1499.00",
-        "sale_price": "1199.00",
-        "image": "assets/images/img1.png",
-        "tag": "Henley"
-    },
-    {
-        "id": 24,
-        "name": "Ocean Teal Polo Shirt",
-        "description": "Teal tone polo for cool vibes.",
-        "previous_price": "1399.00",
-        "sale_price": "1099.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Polo"
-    },
-    {
-        "id": 25,
-        "name": "Minimalist White Tee",
-        "description": "Clean and simple white T-shirt.",
-        "previous_price": "1199.00",
-        "sale_price": "899.00",
-        "image": "assets/images/img1.png",
-        "tag": "Minimal"
-    },
-    {
-        "id": 26,
-        "name": "Slate Blue Check Shirt",
-        "description": "Subtle checks with modern blue tones.",
-        "previous_price": "1599.00",
-        "sale_price": "1299.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Check"
-    },
-    {
-        "id": 27,
-        "name": "Deep Green Polo Tee",
-        "description": "Solid polo tee for everyday wear.",
-        "previous_price": "1399.00",
-        "sale_price": "1099.00",
-        "image": "assets/images/img1.png",
-        "tag": "Polo"
-    },
-    {
-        "id": 28,
-        "name": "Burnt Red Button-Up Shirt",
-        "description": "Vibrant red shirt with classic buttons.",
-        "previous_price": "1499.00",
-        "sale_price": "1199.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Classic"
-    },
-    {
-        "id": 29,
-        "name": "Graphite Athletic Tee",
-        "description": "Stretchable tee for active wear.",
-        "previous_price": "1299.00",
-        "sale_price": "999.00",
-        "image": "assets/images/img1.png",
-        "tag": "Athletic"
-    },
-    {
-        "id": 30,
-        "name": "Skyline Printed Tee",
-        "description": "Printed skyline tee for casual days.",
-        "previous_price": "1499.00",
-        "sale_price": "1199.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Printed"
-    },
-    {
-        "id": 31,
-        "name": "Stone Grey Hoodie",
-        "description": "Stylish hoodie in grey for comfort.",
-        "previous_price": "1899.00",
-        "sale_price": "1599.00",
-        "image": "assets/images/img1.png",
-        "tag": "Hoodie"
-    },
-    {
-        "id": 32,
-        "name": "Vibrant Yellow Summer Shirt",
-        "description": "Bright summer vibes in yellow.",
-        "previous_price": "1399.00",
-        "sale_price": "1099.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Summer"
-    },
-    {
-        "id": 33,
-        "name": "Royal Purple Casual Tee",
-        "description": "Unique purple for standout looks.",
-        "previous_price": "1499.00",
-        "sale_price": "1199.00",
-        "image": "assets/images/img1.png",
-        "tag": "Bold"
-    },
-    {
-        "id": 34,
-        "name": "Grey Striped Button-Up",
-        "description": "Classy stripes with a modern cut.",
-        "previous_price": "1599.00",
-        "sale_price": "1299.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Stripe"
-    },
-    {
-        "id": 35,
-        "name": "Mustard Full Sleeve Shirt",
-        "description": "Warm mustard for a standout outfit.",
-        "previous_price": "1499.00",
-        "sale_price": "1199.00",
-        "image": "assets/images/img1.png",
-        "tag": "Warm"
-    },
-    {
-        "id": 36,
-        "name": "Soft Lilac Tee",
-        "description": "Gentle lilac for everyday comfort.",
-        "previous_price": "1299.00",
-        "sale_price": "999.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Soft"
-    },
-    {
-        "id": 37,
-        "name": "Evergreen Check Shirt",
-        "description": "Checkered green for classic style.",
-        "previous_price": "1599.00",
-        "sale_price": "1299.00",
-        "image": "assets/images/img1.png",
-        "tag": "Check"
-    },
-    {
-        "id": 38,
-        "name": "Jet Black V-Neck Tee",
-        "description": "Sleek V-neck in jet black color.",
-        "previous_price": "1399.00",
-        "sale_price": "1099.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "V-Neck"
-    },
-    {
-        "id": 39,
-        "name": "Sunset Orange Half Sleeve",
-        "description": "Perfect for casual warm evenings.",
-        "previous_price": "1299.00",
-        "sale_price": "999.00",
-        "image": "assets/images/img1.png",
-        "tag": "Casual"
-    },
-    {
-        "id": 40,
-        "name": "Navy Blue Signature Shirt",
-        "description": "Signature style in deep navy tones.",
-        "previous_price": "1499.00",
-        "sale_price": "1199.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Signature"
-    },
-    {
-        "id": 41,
-        "name": "Classic Denim Shirt",
-        "description": "Timeless denim shirt with modern fit.",
-        "previous_price": "1699.00",
-        "sale_price": "1399.00",
-        "image": "assets/images/img1.png",
-        "tag": "Denim"
-    },
-    {
-        "id": 42,
-        "name": "Ocean Blue Polo Shirt",
-        "description": "Cool blue tones for summer wear.",
-        "previous_price": "1499.00",
-        "sale_price": "1199.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Polo"
-    },
-    {
-        "id": 43,
-        "name": "Matte Black Formal Shirt",
-        "description": "Minimalist and sleek black design.",
-        "previous_price": "1799.00",
-        "sale_price": "1499.00",
-        "image": "assets/images/img1.png",
-        "tag": "Formal"
-    },
-    {
-        "id": 44,
-        "name": "Sky White Printed Tee",
-        "description": "Cloud-soft tee with minimal print.",
-        "previous_price": "1299.00",
-        "sale_price": "999.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Printed"
-    },
-    {
-        "id": 45,
-        "name": "Mocha Brown Hoodie",
-        "description": "Cozy and warm hoodie in mocha tone.",
-        "previous_price": "1899.00",
-        "sale_price": "1599.00",
-        "image": "assets/images/img1.png",
-        "tag": "Hoodie"
-    },
-    {
-        "id": 46,
-        "name": "Cherry Red Full Sleeve Tee",
-        "description": "Vibrant and bold cherry tone.",
-        "previous_price": "1399.00",
-        "sale_price": "1099.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Full Sleeve"
-    },
-    {
-        "id": 47,
-        "name": "Ash Grey Casual Shirt",
-        "description": "Casual wear with a classic ash finish.",
-        "previous_price": "1499.00",
-        "sale_price": "1199.00",
-        "image": "assets/images/img1.png",
-        "tag": "Casual"
-    },
-    {
-        "id": 48,
-        "name": "Mint Green Round Neck Tee",
-        "description": "Fresh color with soft fabric.",
-        "previous_price": "1299.00",
-        "sale_price": "999.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Round Neck"
-    },
-    {
-        "id": 49,
-        "name": "Rust Orange Check Shirt",
-        "description": "Bold checks for confident looks.",
-        "previous_price": "1599.00",
-        "sale_price": "1299.00",
-        "image": "assets/images/img1.png",
-        "tag": "Check"
-    },
-    {
-        "id": 50,
-        "name": "Soft Peach Tee",
-        "description": "Gentle tones for relaxed outfits.",
-        "previous_price": "1399.00",
-        "sale_price": "1099.00",
-        "image": "assets/images/frethos_black_shirt.png",
-        "tag": "Soft"
-    }
+    "id": 21,
+    "name": "Black Frethos Street Shirt",
+    "description": "Modern cut with street style vibe.",
+    "previous_price": "1499.00",
+    "sale_price": "1199.00",
+    "image": "assets/images/BFS1.jpeg",
+    "tag": "Urban"
+},
+{
+    "id": 22,
+    "name": "Black Frethos Panther Shirt",
+    "description": "Bold design with panther graphic.",
+    "previous_price": "1599.00",
+    "sale_price": "1299.00",
+    "image": "assets/images/BFS2.jpeg",
+    "tag": "Bold"
+},
+{
+    "id": 23,
+    "name": "White Frethos Hawk Shirt",
+    "description": "Symbolic hawk design in soft cotton.",
+    "previous_price": "1699.00",
+    "sale_price": "1399.00",
+    "image": "assets/images/WFS1.jpeg",
+    "tag": "Limited"
+},
+{
+    "id": 24,
+    "name": "Black Frethos Retro Shirt",
+    "description": "Classic design with retro vibes.",
+    "previous_price": "1399.00",
+    "sale_price": "1099.00",
+    "image": "assets/images/BFWS.jpeg",
+    "tag": "Vintage"
+},
+{
+    "id": 25,
+    "name": "White Frethos Classic Shirt",
+    "description": "Timeless design for all occasions.",
+    "previous_price": "1299.00",
+    "sale_price": "999.00",
+    "image": "assets/images/WFDS.jpeg",
+    "tag": "Classic"
+},
+{
+    "id": 26,
+    "name": "White Frethos Leaf Shirt",
+    "description": "Minimal leaf pattern for clean style.",
+    "previous_price": "1499.00",
+    "sale_price": "1199.00",
+    "image": "assets/images/WFPS.jpeg",
+    "tag": "Fresh"
+},
+{
+    "id": 27,
+    "name": "Black Frethos Dream Shirt",
+    "description": "Soft fabric with dreamy print.",
+    "previous_price": "1599.00",
+    "sale_price": "1299.00",
+    "image": "assets/images/BFWSS.jpeg",
+    "tag": "Night"
+},
+{
+    "id": 28,
+    "name": "Black Frethos Chill Shirt",
+    "description": "Perfect blend of comfort and edge.",
+    "previous_price": "1699.00",
+    "sale_price": "1399.00",
+    "image": "assets/images/BHUH.jpeg",
+    "tag": "Cool"
+},
+{
+    "id": 29,
+    "name": "White Frethos Sky Shirt",
+    "description": "Crisp white with sky-inspired look.",
+    "previous_price": "1399.00",
+    "sale_price": "1099.00",
+    "image": "assets/images/WFBS.jpeg",
+    "tag": "Fresh"
+},
+{
+    "id": 30,
+    "name": "Black Frethos Rebel Shirt",
+    "description": "High attitude with soft texture.",
+    "previous_price": "1599.00",
+    "sale_price": "1299.00",
+    "image": "assets/images/BFTS.jpeg",
+    "tag": "Attitude"
+},
+{
+    "id": 31,
+    "name": "White Frethos Sunset Shirt",
+    "description": "Warm tones with calming print.",
+    "previous_price": "1499.00",
+    "sale_price": "1199.00",
+    "image": "assets/images/WHUDS.jpeg",
+    "tag": "Sunset"
+},
+{
+    "id": 32,
+    "name": "White Frethos Mood Shirt",
+    "description": "Expressive design in cool tones.",
+    "previous_price": "1599.00",
+    "sale_price": "1299.00",
+    "image": "assets/images/WFCS.jpeg",
+    "tag": "Mood"
+},
+{
+    "id": 33,
+    "name": "Black Frethos Globe Shirt",
+    "description": "Global fashion influence.",
+    "previous_price": "1499.00",
+    "sale_price": "1149.00",
+    "image": "assets/images/BBS.jpeg",
+    "tag": "Globe"
+},
+{
+    "id": 34,
+    "name": "White Frethos Inspire Shirt",
+    "description": "Soft inspiration in every thread.",
+    "previous_price": "1399.00",
+    "sale_price": "1099.00",
+    "image": "assets/images/WFFS.jpeg",
+    "tag": "Inspire"
+},
+{
+    "id": 35,
+    "name": "Black Frethos Rebel II Shirt",
+    "description": "A rebel style continued.",
+    "previous_price": "1599.00",
+    "sale_price": "1299.00",
+    "image": "assets/images/BWEP.jpeg",
+    "tag": "Street"
+},
+{
+    "id": 36,
+    "name": "White Frethos Rise Shirt",
+    "description": "Symbol of rising confidence.",
+    "previous_price": "1799.00",
+    "sale_price": "1499.00",
+    "image": "assets/images/WMS.jpeg",
+    "tag": "Rise"
+},
+{
+    "id": 37,
+    "name": "White Frethos Hero Shirt",
+    "description": "Feel bold in every moment.",
+    "previous_price": "1599.00",
+    "sale_price": "1299.00",
+    "image": "assets/images/WUES.jpeg",
+    "tag": "Hero"
+},
+{
+    "id": 38,
+    "name": "Black Frethos Peace Shirt",
+    "description": "Peace-inspired art on comfy cotton.",
+    "previous_price": "1499.00",
+    "sale_price": "1149.00",
+    "image": "assets/images/BFS3.jpeg",
+    "tag": "Peace"
+},
+{
+    "id": 39,
+    "name": "White Frethos Script Shirt",
+    "description": "Script typography with classic touch.",
+    "previous_price": "1699.00",
+    "sale_price": "1399.00",
+    "image": "assets/images/WFCAT.jpeg",
+    "tag": "Typography"
+},
+{
+    "id": 40,
+    "name": "Black Frethos Galaxy Shirt",
+    "description": "Starry black design for night looks.",
+    "previous_price": "1499.00",
+    "sale_price": "1199.00",
+    "image": "assets/images/BPYS.jpeg",
+    "tag": "Galaxy"
+},
+{
+    "id": 41,
+    "name": "White Frethos Drama Shirt",
+    "description": "High contrast design for boldness.",
+    "previous_price": "1399.00",
+    "sale_price": "1099.00",
+    "image": "assets/images/WFS1.jpeg",
+    "tag": "Drama"
+},
+{
+    "id": 42,
+    "name": "Black Frethos Skull Shirt",
+    "description": "Dark graphic skull themed design.",
+    "previous_price": "1699.00",
+    "sale_price": "1399.00",
+    "image": "assets/images/BFWSS.jpeg",
+    "tag": "Skull"
+},
+{
+    "id": 43,
+    "name": "White Frethos Ink Shirt",
+    "description": "Ink splash artistic shirt.",
+    "previous_price": "1499.00",
+    "sale_price": "1199.00",
+    "image": "assets/images/WFDS.jpeg",
+    "tag": "Art"
+},
+{
+    "id": 44,
+    "name": "Black Frethos Flame Shirt",
+    "description": "Flaming hot design for bold styles.",
+    "previous_price": "1599.00",
+    "sale_price": "1299.00",
+    "image": "assets/images/BFTS.jpeg",
+    "tag": "Flame"
+},
+{
+    "id": 45,
+    "name": "White Frethos Neon Shirt",
+    "description": "Neon print that stands out.",
+    "previous_price": "1499.00",
+    "sale_price": "1199.00",
+    "image": "assets/images/WHUDS.jpeg",
+    "tag": "Neon"
+},
+{
+    "id": 46,
+    "name": "Black Frethos Code Shirt",
+    "description": "Tech-inspired minimalist style.",
+    "previous_price": "1399.00",
+    "sale_price": "1099.00",
+    "image": "assets/images/BHUH.jpeg",
+    "tag": "Tech"
+},
+{
+    "id": 47,
+    "name": "White Frethos Silent Shirt",
+    "description": "Elegant and quiet style blend.",
+    "previous_price": "1599.00",
+    "sale_price": "1299.00",
+    "image": "assets/images/WFPS.jpeg",
+    "tag": "Silent"
+},
+{
+    "id": 48,
+    "name": "Black Frethos Layer Shirt",
+    "description": "Perfect for layering or standalone wear.",
+    "previous_price": "1499.00",
+    "sale_price": "1199.00",
+    "image": "assets/images/BBS.jpeg",
+    "tag": "Layer"
+},
+{
+    "id": 49,
+    "name": "White Frethos Soul Shirt",
+    "description": "Gentle fabric with soulful print.",
+    "previous_price": "1699.00",
+    "sale_price": "1399.00",
+    "image": "assets/images/WFFS.jpeg",
+    "tag": "Soul"
+},
+{
+    "id": 50,
+    "name": "Black Frethos Final Shirt",
+    "description": "Closing style with signature finish.",
+    "previous_price": "1799.00",
+    "sale_price": "1499.00",
+    "image": "assets/images/BFWS.jpeg",
+    "tag": "Final"
+}
 ]
