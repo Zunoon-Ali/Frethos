@@ -1,7 +1,7 @@
 // This needs to be GLOBAL for onclick in HTML to work
 let productData = [];
 let currentPage = 1;
-let itemsPerPage = 16;
+let itemsPerPage = 8;
 
 function handleCardClick(card) {
     const product = {
@@ -65,9 +65,9 @@ document.addEventListener('DOMContentLoaded', function () {
       data-sale_price="${product.sale_price}"
     >
       <div class="bg-gray-100 p-2 rounded-lg hover:bg-gray-200 transition duration-300 ease-in-out shadow-lg hover:shadow-2xl hover:scale-105">
-          <img class="h-50 rounded w-full object-contain object-center my-2 group-hover:hidden"
+          <img class="h-50 rounded w-full object-cover object-center my-2 group-hover:hidden"
               src="${product.image}" alt="${product.name}" />
-          <img class="h-50 rounded w-full object-contain object-center my-2 hidden group-hover:block"
+          <img class="h-50 rounded w-full object-cover object-center my-2 hidden group-hover:block"
               src="assets/images/frethos_logo.png" alt="Black Shirt Back" />
           <h3 class="bg-black tracking-widest text-white text-xs py-1 px-2 font-medium rounded-full title-font hover:text-white hover:bg-indigo-500 transition duration-300 ease-in-out inline-block hover:font-bold my-2">
               ${product.tag}
