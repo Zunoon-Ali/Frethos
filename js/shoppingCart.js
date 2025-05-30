@@ -19,27 +19,27 @@ document.addEventListener("DOMContentLoaded", () => {
             itemDiv.innerHTML = `
                 <div class="flex w-full items-center justify-between">
                     <!-- Left: Image and details -->
+                    <img src="${item.image}" alt="${item.name}" class="w-12 h-12 md:w-24 md:h-24 object-cover rounded" />
                     <div class="flex items-center space-x-4">
-                        <img src="${item.image}" alt="${item.name}" class="w-24 h-24 object-cover rounded" />
                         <div class="flex flex-col space-y-1">
-                            <h2 class="text-lg font-semibold">${item.name}</h2>
-                            <p class="text-gray-500">Color: ${item.color}</p>
-                            <p class="text-gray-700">Price: ${item.price}</p>
+                            <h2 class="text-sm md:text-lg font-semibold">${item.name}</h2>
+                            <p class="text-gray-500 text-sm md:text-lg">Color: ${item.color}</p>
+                            <p class="text-gray-700 text-sm md:text-lg">Price: ${item.price}</p>
                         </div>
                     </div>
 
                     <!-- Right: Quantity and Delete -->
-                    <div class="flex items-center space-x-4">
+                    <div class="flex items-center space-x-2 md:space-x-4">
                         <input 
                             type="number" 
                             min="1" 
                             value="${item.quantity}" 
                             data-index="${index}" 
-                            class="quantityInput w-16 border rounded px-2 py-1 text-center"
+                            class="quantityInput w-10 md:w-16 border rounded px-2 py-1 text-center text-xs md:text-base"
                         />
                         <button 
                             data-index="${index}" 
-                            class="deleteBtn text-red-500 hover:underline"
+                            class="deleteBtn text-red-500 hover:underline text-sm md:text-base"
                         >
                             Delete
                         </button>
